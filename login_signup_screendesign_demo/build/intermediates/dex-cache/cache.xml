@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Sonu/.android/build-cache/204c4bf30e8b9dd597e2367d3fd0f16da4d33036/output/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_bd7eb485299e9898ef545a7b9b165d375c0c3dfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sonu/.android/build-cache/204c4bf30e8b9dd597e2367d3fd0f16da4d33036/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/pre-dexed/debug/classes_3f160605c67c331e6a042816af826f91311d178a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sonu/.android/build-cache/83ce70d2e27e91f606eec9406c0566e88fad1a48/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/pre-dexed/debug/classes_571b5d205482730f85979f863f88c6ba11ce145b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sonu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/Sonu/Documents/AndroidWorkspace/Login_SignUp_ScreenDesgin_Demo/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_24f243f2b3343eeeab1bf41ac487b5630f781baa.jar" />
+    </item>
+
+</items>

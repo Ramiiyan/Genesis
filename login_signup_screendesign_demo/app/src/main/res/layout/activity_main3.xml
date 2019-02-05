@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="221dp"
+        android:background="@color/white_greyish" />
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/LastMonthWaterBillCalculation"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ExpectedWaterBill"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView6"
+        android:layout_alignTop="@+id/view"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/myfont"
+        android:gravity="center_vertical"
+        android:hint="0123"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+
+    <EditText
+        android:id="@+id/LastMonthWaterBill"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ExpectedWaterBill"
+        android:layout_marginTop="155dp"
+        android:layout_weight="1"
+        android:background="@color/background_color"
+        android:backgroundTint="@color/background_color"
+        android:drawablePadding="8dp"
+        android:fitsSystemWindows="true"
+        android:fontFamily="@font/myfont"
+        android:gravity="center_vertical"
+        android:hint="0123"
+        android:padding="10dp"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/Servicecharge"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="262dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/myfont"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/LastMonthWaterBillCalculation"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Servicecharge"
+        android:layout_marginTop="-262dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/myfont"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/TouchME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif"
+        android:text="@string/touch_me"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="208dp"
+        android:layout_height="42dp"
+        android:layout_alignBaseline="@+id/ExpectedWaterBill"
+        android:layout_alignStart="@+id/textView4"
+        android:fontFamily="sans-serif"
+        android:text="Expected Water Bill:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/LastMonthWaterBill"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:fontFamily="sans-serif"
+        android:text="Last Month Water Bill:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:text="Government charges Service Charge and 12% VAT for the serivice provided"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="383dp"
+        android:layout_height="196dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginStart="-11dp"
+        app:srcCompat="@drawable/sente4" />
+
+    <TextView
+        android:id="@+id/REalAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/login_layout"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/myfont"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/ExpectedWaterBillCalculation"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/REalAmount"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/myfont"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/GetToNextPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif"
+        android:text="Get to Next Page"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
